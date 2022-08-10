@@ -1,0 +1,25 @@
+.section-two-column{
+  padding: 6rem 0;
+}
+
+.text-two-column{
+  color: var(--black-four);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.box-two-column{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding-right: 4rem;
+}
+
+.img-two-column{
+
+  img{
+    width: 80%;
+  }
+}

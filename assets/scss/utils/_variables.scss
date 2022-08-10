@@ -1,0 +1,20 @@
+
+// Custom properties
+:root{
+  --color-primary: #ffe600;
+  --color-secondary:#55acee;
+  --black-one: #212529;
+  --black-two: #1a1a24;
+  --black-three: #2e2e38;
+  --white-one: #ffff;
+  --white-two: #f6f6fa;
+  --gray-one: #747480;
+  --gray-two: #888;
+  --gray-three: #bbb;
+  --gray-four: #c4c4cd;
+  --gray-five: #cacad1;
+  --gray-six: #eaeaf2;
+
+  --widgetSize: 560px;
+  --valuesCircles: calc(var(--widgetSize) / 4);
+}

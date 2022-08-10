@@ -1,0 +1,146 @@
+@media screen and(max-width:360px){
+  .flex-values div{
+    font-size: 8px;
+  }
+}
+@media screen and(max-width: 600px) {
+
+  :root{
+    --widgetSize: 340px;
+  }
+  .navbar-collapse-k{
+    height: 100vh;
+  }
+  .navbar-k .navbar-nav .nav-link-k{
+    padding: 1rem;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .navbar-nav-k{
+    height: 100vh;
+    padding-top: 1.5rem;
+  }
+  .banner-title{
+    font-size: 2rem;
+  }
+  .text-outstanding{
+    padding: 0 1rem;
+    font-size: 1.25rem;
+  }
+  .title-primary{
+    font-size: 1.5rem;
+  }
+  .subtitle-primary{
+    font-size: 1.25rem;
+  }
+  .text-one{
+    font-size: 1rem;
+  }
+
+  .section-advantage, .section-world-class, .section-values, .section-solution, .section-services, .section-industries, .section-language-services, .section-form{
+    padding: 4rem 0;
+  }
+
+  .list-world-class{
+    padding: 0 1rem;
+
+    li{
+      height: auto;
+    }
+  }
+
+  .section-speak-now{
+    background-position: left;
+    height: auto;
+    margin-top: 0;
+  }
+  
+  .flex-values div{
+    font-size: 10px;
+  }
+
+  .card-k_push{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .card-k_content{
+    height: auto;
+  }
+  .card-k_push figcaption{
+    display: none;
+  }
+  .card-k_push-left:hover .card-k_content, .card-k_push-up:hover .card-k_content{
+    transform: translateX(0);
+  }
+  .card-k_alt.card-k_big:hover{
+    border-color: inherit;
+    color: initial;
+  }
+  .card-k_big:hover{
+    border-color: var(--white-one);
+    color: var(--white-one);
+  }
+
+  .borde-values{
+    height: calc(var(--widgetSize) - 100px);
+    width: calc(var(--widgetSize) - 100px);
+  }
+
+  .form-box{
+    padding: 2rem;
+    width: 100%;
+  }
+  .footer{
+    padding: 2rem 0 0;
+  }
+  .footer-ul, .footer-title{
+    margin-left: 2rem;
+  }
+  .footer-title{
+    font-size: 1.25rem;
+  }
+  .section-copyght p{
+    font-size: 12px;
+  }
+  .box-img_certified{
+    max-width: 33%;
+  }
+  .box-img_certified-alt img{
+    width: 60%;
+  }
+  .box-certified_footer{
+    margin-bottom: 2rem;
+  }
+  .section-boxText{
+    padding: 3rem 0;
+  }
+  .box-solution{
+    margin-bottom: 0;
+    padding: 1rem 0;
+  }
+  .banner_emergency{
+    background-position-x: 53%;
+  }
+  .banner_telehealth{
+    background-position: 28%;
+  }
+  .banner_americansign{
+    background-position: 82%;
+  }
+}
+
+
+@media screen and(min-width: 768px) {
+}
+
+@media screen and(max-width: 1024px) {
+  .container-k{
+    max-width: 1024px;    
+  }
+  .navbar-k .navbar-nav .nav-link-k:hover::before{
+    display: none;
+  }
+}

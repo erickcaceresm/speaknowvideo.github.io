@@ -1,0 +1,110 @@
+.section-values{
+  background-color: var(--black-two);
+  padding: 7rem 0;
+}
+
+.box-values{ // widget
+  // height: 560px;
+  margin: auto;
+  position: relative;
+  // width: 560px;
+}
+
+.widget{
+  height: var(--widgetSize);
+  width: var(--widgetSize);
+}
+
+.flex-values{
+    display: flex;
+    justify-content: center;
+    // gap: 16px;
+    // border-radius: 50%;
+    height: 100%;
+    position: relative;
+
+    h1{
+      color: var(--white-one);
+      z-index: 1;
+    }
+
+  div{
+    align-items: center;
+    background-color: #eaeaf2;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #eaeaf2, inset 0 0 0 5px #292a2f;
+    border: dashed 2px #292a2f;
+    height: 136px;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    width: 136px;
+    z-index: 1;
+
+    height: var(--valuesCircles, 140px);
+    width: var(--valuesCircles, 140px);
+
+    &:hover{
+      background-color: var(--black-three);
+      color: var(--color-primary);
+    }
+
+    &:nth-child(1){
+      // left: 35px;
+      left: calc(var(--widgetSize) / 16);
+      // top: 115px;
+      top: calc(var(--widgetSize) / 5);
+    }
+    &:nth-child(2){
+      // right: 35px;
+      right: calc(var(--widgetSize) / 16);
+      // top: 115px;
+      top: calc(var(--widgetSize) / 5);
+    }
+    &:nth-child(3){
+      // right: 35px;
+      right: calc(var(--widgetSize) / 16);
+      // bottom: 305px;
+      bottom: calc(var(--widgetSize) / 5);
+    }
+    &:nth-child(4){
+      // left: 35px;
+      left: calc(var(--widgetSize) / 16);
+      // top: 305px;
+      bottom: calc(var(--widgetSize) / 5);
+    }
+    &:nth-child(5){
+      top: 10px;
+    }
+    &:nth-child(6){
+      bottom: 10px;
+    }
+  }
+}
+
+.borde-values{
+  background: var(--black-five);
+  border: solid 8px var(--color-primary);
+  bottom: 0;
+  border-radius: 50%;
+  left: 0;
+  // height: 400px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  // width: 400px;
+  z-index: 0;
+
+  height: calc(var(--widgetSize) - 160px);
+  width: calc(var(--widgetSize) - 160px);
+}
+
+.align-center-values{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}

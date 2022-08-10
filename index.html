@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>SpeakNowVideo</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-k">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/images/iconos/logo.png" class="img-logo" alt="logo speak now video">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list color-white"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav navbar-nav-k">
+              <li class="nav-item">
+                <a class="nav-link nav-link-k nav-link-k" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link-k dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">Industries</a>
+                <ul class="dropdown-menu dropdown-menu-k" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="industries.html">about industries</a></li>
+                  <li><a class="dropdown-item" href="healthcare.html">healthcare</a></li>
+                  <li><a class="dropdown-item" href="insurance.html">insurance</a></li>
+                  <li><a class="dropdown-item" href="emergency.html">911 emergency services</a></li>
+                  <li><a class="dropdown-item" href="government.html">government</a></li>
+                  <li><a class="dropdown-item" href="financial.html">financial services</a></li>
+                  <li><a class="dropdown-item" href="education.html">education interpretation</a></li>
+                  <li><a class="dropdown-item" href="legalandjudicial.html">legal and judicial</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link-k dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu dropdown-menu-k" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="services.html">about services</a></li>
+                  <li><a class="dropdown-item" href="videoremote.html">video remote interpreting</a></li>
+                  <li><a class="dropdown-item" href="overthephone.html">over the phone interpreting</a></li>
+                  <li><a class="dropdown-item" href="telehealth.html">telehealth</a></li>
+                  <li><a class="dropdown-item" href="americansign.html">american sign language</a></li>
+                  <li><a class="dropdown-item" href="languageservice.html">language service company</a></li>
+                  <li><a class="dropdown-item" href="document.html">document translation</a></li>
+                  <li><a class="dropdown-item" href="multilingual.html">multilingual contact services</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-k" href="leadership.html">Leadership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-k" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-k" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-k" href="#">My Platform</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-k" href="tel:1-888-861-8484">1-888-861-8484</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="hero-banner">
+      <img src="./assets/images/iconos/logo.png" class="banner-img" alt="logo SpeakNowVideo">
+      <h3 class="banner-subtitle" data-aos="fade-down" data-aos-delay="50">Welcome to Speak Now Video Platform!</h3>
+      <h1 class="banner-title" data-aos="fade-up" data-aos-delay="500">Premium Platform for Interpretation Services</h1>
+      <button class="btn-k btn-k_outline btn-k_outline-primary" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">Watch video</button>
+    </div>
+  </section>
+
+  <section class="section-certified">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4 box-img_certified">
+          <img src="./assets/images/iconos/certificado-hipaa-compliance.png" alt="certificado hipaa one">
+        </div>
+        <div class="col-md-4 box-img_certified">
+          <img src="./assets/images/iconos/certificado-hipaa-one.png" alt="certificado hipaa one">
+        </div>
+        <div class="col-md-4 box-img_certified">
+          <img src="./assets/images/iconos/certificado-iso-27001.png" alt="certificado hipaa one">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-solution">
+    <div class="container">
+      <!-- <h1 class="title-primary">Availability 24/7 365 days a year</h1> -->
+      <h1 class="title-primary">Telephonic Interpretation Services and Video Remote Interpretation 24/7/365</h1>
+
+      <div class="box-solution box-solution_one" data-aos="fade-right">
+        <h2 class="subtitle-primary subtitle-solution">Why many companies and organizations are migrating to Speak Now
+          Video?</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="ul-items">
+              <li>
+                <span>It has no monthly cost $0</span>
+              </li>
+              <li>
+                <span>There is no extra charge for the use of the operator $0</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="ul-items">
+              <li>
+                <span>There is no extra charge for making long distance calls $0</span>
+              </li>
+              <li>
+                <span>No setup fee $0</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-solution box-solution_two" data-aos="fade-left">
+        <h2 class="subtitle-primary subtitle-solution">Competitive advantages offered by Speak Now Video:</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="ul-items">
+              <li>
+                <span>You only pay per minute you are in call</span>
+              </li>
+              <li>
+                <span>You can manage and add your own interpreters</span>
+              </li>
+              <li>
+                <span>White label </span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="ul-items">
+              <li>
+                <span>Quickbooks</span>
+              </li>
+              <li>
+                <span>Dashboard</span>
+              </li>
+              <li>
+                <span>The best rates in the interpreting industry</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-solution box-solution_three" data-aos="fade-right">
+        <h2 class="subtitle-primary subtitle-solution">3 ways to connect calls</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="ul-items">
+              <li>
+                <span>Toll Free Number / PIN Number</span>
+              </li>
+              <li>
+                <span>Direct Number/Spanish-French, etc, etc.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="ul-items">
+              <li>
+                <span>Toll Free Number/Operator</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-advantage">
+    <h1 class="title-primary color-white title-advantage"><span>7OOO+</span> Professional interpreters, 350+ <strong
+        class="color-primary">Languages</strong>
+      24/7/365</h1>
+    <h2 class="subtitle-primary text-center color-white">“Low Rate per Minute”</h2>
+    <p class="text-one color-white">Based in U.S. & Canada!</p>
+    <p class="text-one color-primary">The competitive advantages it offers:</p>
+
+    <div class="container">
+      <div class="card-k_grid">
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-clipboard2-x"></i>
+          </div>
+          <span class="card-k_text">No contracts</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-wallet2"></i>
+          </div>
+          <span class="card-k_text">No setup fee</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-phone-vibrate"></i>
+          </div>
+          <span class="card-k_text">Free number</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-laptop"></i>
+          </div>
+          <span class="card-k_text">Dashboard reporting</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-patch-check"></i>
+          </div>
+          <span class="card-k_text">Assured quality and
+            Confidentiality</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-stopwatch"></i>
+          </div>
+          <span class="card-k_text">Connect in about 10 seconds </span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-calendar3"></i>
+          </div>
+          <span class="card-k_text">Availability 24/7/365</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-calendar-plus"></i>
+          </div>
+          <span class="card-k_text">Account Manager available to you 24/7</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-telephone-plus"></i>
+          </div>
+          <span class="card-k_text">3 ways to connect calls</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-file-ruled"></i>
+          </div>
+          <span class="card-k_text">Professional and Certified Interpreters</span>
+        </div>
+        <div class="card-k">
+          <div class="card-k_icon">
+            <i class="bi bi-clock-history"></i>
+          </div>
+          <span class="card-k_text">You only pay for interpreted minutes
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-world-class">
+    <div class="container">
+      <h1 class="title-primary title-world-class">World-class content</h1>
+      <div class="row pt-md-5">
+        <!-- <div class="col-md-6">
+          <img src="./assets/images/world-class.png" alt="world class content">
+        </div> -->
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right">
+          <ul class="list-world-class">
+            <li>We offer high-quality, professionally produced content that is new and relevant to all performers.</li>
+            <li>We have created a highly engaging performance platform that exceeds the high expectations of the modern
+              world.</li>
+            <li>Our team of leaders will help you use this platform to increase the profits of your own company.</li>
+            <li>Committed to excellence.</li>
+            <!-- <li>Strategic perspectives</li> -->
+          </ul>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <ul class="list-world-class">
+            <li>Our robust platform offers a learning experience of excellence that develops skills on demand and
+              fosters a culture of learning within your agency.</li>
+            <li>Our robust platform offers an excellent solution for small businesses and large private and government
+              organisations.</li>
+            <li>A robust online platform for remote meeting and interpreters.</li>
+            <li>Reduce the costs of your current providers considerably.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-values">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box-values widget" data-aos="flip-left">
+            <div class="flex-values">
+              <div>Honesty</div>
+              <div>Responsability</div>
+              <div>Leadership</div>
+              <div>Passion</div>
+              <div>Integrity</div>
+              <div>Humility</div>
+              <h1 class="title-primary m-auto">Values</h1>
+            </div>
+            <div class="borde-values"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="align-center-values">
+            <h1 class="title-secondary color-primary">Our virtues</h1>
+            <p class="color-white">The satisfaction of our customers is the degree of happiness and fulfillment for us,
+              the products and services we offer provide the best experience for our customers.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-benefits" style="display: none;">
+    <div class="container">
+      <div class="content-benefits">
+        <h1 class="title-primary">Benefits</h1>
+        <p>You can hire interpreter and translators across the country or anywhere in the world and that will
+          automatically
+          epand the location capabilities of your services.</p>
+        <p>Speak Now Video Remote will provide the tool necessary of your team to work from home or from multiple
+          locations.
+        </p>
+        <p>Our main clients are: Specialized in health care, Government Education, Legal and Judicial, Automotive,
+          Insurance, Financial Services, Manufactures, Contact Centers, etc.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-industries">
+    <div class="container">
+      <h1 class="title-primary color-black">Industries</h1>
+      <h2 class="text-one">Performs language management in any language and anywhere in the world</h2>
+      <div class="card-k_grid">
+        <div class="card-k card-k_alt card-k_big">
+          <div class="card-k_push card-k_push-left">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-building"></i>
+              </div>
+              <span class="card-k_text">About Industries</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="about-industries.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_alt card-k_big">
+          <div class="card-k_push card-k_push-left">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-hospital"></i>
+              </div>
+              <span class="card-k_text">Healthcare</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="healthcare.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_alt card-k_big">
+          <div class="card-k_push card-k_push-left">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-file-earmark-medical"></i>
+              </div>
+              <span class="card-k_text">Insurance</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="insurance.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_alt card-k_big">
+          <div class="card-k_push card-k_push-left">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-telephone-plus"></i>
+              </div>
+              <span class="card-k_text">911 Emergency Services</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="emergency-services.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_alt card-k_big">
+          <div class="card-k_push card-k_push-left">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-bank"></i>
+              </div>
+              <span class="card-k_text">Government</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="government.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_alt card-k_big">
+          <div class="card-k_push card-k_push-left">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-bookmark-star"></i>
+              </div>
+              <span class="card-k_text">Financial Services</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="financial-services.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_alt card-k_big">
+          <div class="card-k_push card-k_push-left">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-book"></i>
+              </div>
+              <span class="card-k_text">Education Interpretation</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="education-interpretation.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_alt card-k_big">
+          <div class="card-k_push card-k_push-left">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-journal-text"></i>
+              </div>
+              <span class="card-k_text">Legal and Judicial</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="legal-judicial.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="section-services">
+    <div class="container">
+      <h1 class="title-primary color-white">Services</h1>
+      <h2 class="text-one color-primary">Provider language service solutions</h2>
+      <div class="card-k_grid">
+        <div class="card-k card-k_big">
+          <div class="card-k_push card-k_push-up">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-clipboard2-x"></i>
+              </div>
+              <span class="card-k_text">About Services</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="about-services.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_big">
+          <div class="card-k_push card-k_push-up">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-camera-video"></i>
+              </div>
+              <span class="card-k_text">Video Remote Interpretation</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="video-remote-interpretation.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_big">
+          <div class="card-k_push card-k_push-up">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-headset"></i>
+              </div>
+              <span class="card-k_text">Over the phone interpreting</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="phone-interpreting.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_big">
+          <div class="card-k_push card-k_push-up">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-pip"></i>
+              </div>
+              <span class="card-k_text">Telehealth</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="telehealth.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_big">
+          <div class="card-k_push card-k_push-up">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-hand-index"></i>
+              </div>
+              <span class="card-k_text">American Sign Language</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="american-sign-language.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_big">
+          <div class="card-k_push card-k_push-up">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-receipt-cutoff"></i>
+              </div>
+              <span class="card-k_text">Language Service Company</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="language-service-company.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_big">
+          <div class="card-k_push card-k_push-up">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-files"></i>
+              </div>
+              <span class="card-k_text">Document Translation</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="document-translation.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+        <div class="card-k card-k_big">
+          <div class="card-k_push card-k_push-up">
+            <div class="card-k_content">
+              <div class="card-k_icon">
+                <i class="bi bi-ui-radios-grid"></i>
+              </div>
+              <span class="card-k_text">Multilingual Contact Services</span>
+            </div>
+            <a href="#" class="link-services">Leer más</a>
+            <figcaption>
+              <p>Is a video-telecommunication service that uses devices such as web cameras or videophones to provide
+                sign
+                language or spoken language interpreting services. This is done throug a remote or offsite interpreter.
+              </p>
+              <a href="multilingual-contact-services.html" class="link-services">Leer más</a>
+            </figcaption>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="container-fluid section-speak-now">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6" data-aos="zoom-in">
+          <h1 class="title-secondary color-white text-start">Speak Now Video languages list</h1>
+          <p class="color-white">If an interpreter for the language you requested is not currently available, your call
+            will route to
+            Client Services for further assistance or send an E-mail to support@speaknowvideo.com Since there are around
+            6,500 spoken languages in the world.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-language-services">
+    <div class="container">
+      <h1 class="title-primary">Language Services</h1>
+      <h2 class="subtitle-primary">¡Speak Now Video and don't leave it for later!</h2>
+      <p class="text-one px-md-5">You’ll have all the language services you need to contact whoever you want or need
+        anywhere in
+        the world with Speak Now Video. From the platform of our agency you’ll be able to have access to all these for
+        your
+        next important international meeting or the summit that you are organizing.</p>
+
+      <div class="mt-5">
+        <div class="table-k_box">
+          <table class="table table-striped table-hover table-k" style="display: none;">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Language</th>
+                <th scope="col">OPI</th>
+                <th scope="col">VRI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Acholi</td>
+                <td>Available</td>
+                <td>American Sign Language</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Afar</td>
+                <td>Available</td>
+                <td>Spanish</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Afrikaans</td>
+                <td>Available</td>
+                <td>Mandarin</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table id="table_id" class="table table-striped table-hover display">
+            <thead>
+              <tr>
+                <th>Language</th>
+                <th>OPI</th>
+                <th>VRI</th>
+              </tr>
+            </thead>
+          </table>
+
+          <div style="display: none;">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                  <a class="page-link">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-form">
+    <div class="container">
+      <div class="form-content" data-aos="zoom-out">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-box form-box_text">
+              <h2 class="title-secondary">Get a Free Quote for Speak Now Video</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium saepe voluptas possimus numquam
+                eius debitis doloribus tempore maiores eos ipsa ea sunt voluptatibus</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-box">
+              <form method="post" action="./assets/php/enviar.php" class="row g-3 needs-validation" novalidate>
+                <div class="col-12">
+                  <input type="text" class="form-control form-control-k" name="name" id="name" placeholder="Name"
+                    required>
+                </div>
+                <div class="col-md-12">
+                  <input type="text" class="form-control form-control-k" name="phone" id="phone" placeholder="Phone"
+                    required>
+                </div>
+                <div class="col-12">
+                  <input type="text" class="form-control form-control-k" name="email" id="email" placeholder="Email"
+                    required>
+                </div>
+                <div class="col-12">
+                  <select class="form-select form-select-k" nombre="servicios" id="servicios" required>
+                    <option selected value="">Interested in...</option>
+                    <option>Video remote interpreting</option>
+                    <option value="phone">Over the phone interpreting</option>
+                    <option value="telehealth">Telehealth</option>
+                    <option value="sign">American sign language</option>
+                    <option value="service">Language service company</option>
+                    <option value="document">Document translation</option>
+                    <option value="multilingual">Multilingual contact services</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label form-check-label-k" for="invalidCheck">
+                      I agree with Speak Now Video's stated <a href="privacy.html">Privacy Policy</a> and <a
+                        href="terms.html">Terms &
+                        Conditions</a>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-k_form" type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-4 mb-md-0">
+          <div>
+            <img src="./assets/images/iconos/logo.png" class="footer-logo" alt="logo speak now video">
+            <div>
+              <p class="text-center">Follow Us</p>
+              <div class="box-redes">
+                <a href="linkedin.com">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100074635034713">
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/speaknowvideo/">
+                  <i class="bi bi-instagram"></i>
+                </a>
+                <a href="youtube.com">
+                  <i class="bi bi-youtube"></i>
+                </a>
+                <a href="twitter.com">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <ul class="footer-ul">
+            <li>
+              <a href="terms.html">Terms and Conditions</a>
+            </li>
+            <li>
+              <a href="privacy.html">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="codes.html">Codes of Ethics</a>
+            </li>
+            <li>
+              <a href="">Covid-19 Update</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h2 class="footer-title">Contact</h2>
+          <ul class="footer-ul">
+            <li>
+              <a href="tel: 1-888-861-8484">Phone: 1-888-861-8484</a>
+            </li>
+            <li>
+              <a href="mailto:sales@speaknowvideo.com">sales@speaknowvideo.com</a>
+            </li>
+            <li>
+              <a href="skills.html">Skills</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h2 class="footer-title ms-md-0">Certified</h2>
+          <div class="row box-certified_footer">
+            <div class="col-12 col-md-4 box-img_certified box-img_certified-alt">
+              <img src="./assets/images/iconos/certificado-hipaa-compliance-movil.png" alt="certificado hipaa one">
+            </div>
+            <div class="col-12 col-md-4 box-img_certified box-img_certified-alt">
+              <img src="./assets/images/iconos/certificado-hipaa-one.png" alt="certificado hipaa one">
+            </div>
+            <div class="col-12 col-md-4 box-img_certified box-img_certified-alt">
+              <img src="./assets/images/iconos/certificado-iso-27001.png" alt="certificado hipaa one">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="section-copyght">
+    <p>Copyright © 2022 Speak Now Video</p>
+  </section>
+
+  <a class="btn-contact-us" href="contact.html">
+    <i class="bi bi-telephone"></i>
+    <span>Contact Us</span>
+  </a>
+
+  <!-- modal start-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content modal-content-k">
+        <div class="modal-header modal-header-k">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="videoWrapper">
+            <iframe allowfullscreen="" frameborder="0" height="401" id="vimeo-vid" mozallowfullscreen=""
+              src="https://player.vimeo.com/video/188362362" webkitallowfullscreen="" width="720"
+              data-vimeo-tracked="true" data-ready="true"></iframe>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- modal end -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="./assets/js/jquery.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+
+    // $(document).ready(function () {
+    //   $('#table_id').DataTable();
+    // });
+
+  </script>
+</body>
+
+</html>

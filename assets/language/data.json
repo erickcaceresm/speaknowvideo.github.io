@@ -1,0 +1,1845 @@
+{
+    "data": [
+        {
+            "language": "Acholi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Afar",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Afghani(Dari)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Afrikaans",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Akan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Akateko",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Albanian (Gheg & Tosk)",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Amharic",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Anuak",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Apache",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Amoy",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Armenian",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Asante",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Assyrian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Azerbaidjani (Azeri)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Badini",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bahasa",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bajuni",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bali",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bamanankan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bambara",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bandi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bantu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Barawe",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Barese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Basque",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Basaa",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Belarusan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bemba",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Benaadir",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Belize Creole",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "English",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bengali",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },{
+            "language": "Berber",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bosnian",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Bravanese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Bulgarian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Burmese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Byelorussian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Cambodian (Khmer)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Cantonese",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Cape Verde Creole",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Castilian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Catalán",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Cebuano",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chagga",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chaldean",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chamorro",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chaochow",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chaozhou",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Cherokee",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Falam",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Hahka",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Lautu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Mara",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Matu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Mizo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Senthang",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Tedim",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chin-Zophei",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chipewyan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Choujo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chuj",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Chuukese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Cree",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Croatian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Cutchi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Czech",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Danish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Dari",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Darija",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Dewoin",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Diejiu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Dinka",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Duala",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Dioula",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Djerma",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Dutch",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Dzongkha",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Edo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ekegusii",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Estonian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ewe",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Fante",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Farsi",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Fijian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Fijian Hindi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Filipino",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Finnish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Flemish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Fon",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "French",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "French Creole",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "French-Canadian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Fukienese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Fulani",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Fuzhou",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ga",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gaddang",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gaelic-Irish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gaelic-Scottish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Galla",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Garre",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gen",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Georgian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "German",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "German Penn",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gheg",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gilaki",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gokana",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gourmancema",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Greek",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Gujarati",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gulay",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Gurani",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Romani",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Haitian Creole",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hakka-China",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hakka-Taiwan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hassaniyya",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hharari",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hausa",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hawaiian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hebrew",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Hiligaynon",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hindi",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Hindko",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hmong",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Hokkien",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hunan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hunanese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Hungarian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ibibio",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ibo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Icelandic",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Igbo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ilocano",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ilongo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Indonesian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Inuktitut",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Italian",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Jakartanese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Jamaican Patois",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Japanese",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Jarai",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Jarai",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Javanese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Jingpho",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Jinyu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Juba Arabic",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Jula",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "K’onjabol",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kaba",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kachin",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kalenjin",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kamba",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kam-Muang",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kanjobal",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kannada",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Karen",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Karenni",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kashmiri",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kayah",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kazakh",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kham",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Khana",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Khmer (Cambodian)",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "K’iche",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kikuyu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kimiiru",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kicongo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kinyarwanda",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kirgiz",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kirundi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kiswahili",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Koho",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Konkani",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Korean",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Kosraen",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Krahn",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Krio (Sierra Leone)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kunama",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kurmanji",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kurdish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Kyrgyz",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Lakota",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Laotian",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Latvian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Leta",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Liberian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Lingala",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Lithuanian",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Luba-Kasai",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Luganda",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Luhya",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Luo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Maay",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Macedonian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mai Mai",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Malay",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Malayalam",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Malinke",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Maltese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mam",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mandarin",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Mandingo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mandinka",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Maninka",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Manobo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Marathi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Marka",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Marshallese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Masalit",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Masbatenyo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mbay",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Meru",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mien",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Minangkabau",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mingrelian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mirpuri",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mixteco Alto",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mixteco Bajo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mizo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mnong",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mongolian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Montenegro",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Moroccan Arabic",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Moore",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mordovin",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Mortlockese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nantong",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Navajo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nedebele",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nepali",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Ngambay",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ngemba",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nigerian Pidgin",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ning Po",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Norwegian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nuer",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nupe",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nyanja",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nyoro",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Nzima",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ojibway",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Oriya",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Orominga",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Oromo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pahari",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pampangan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Papago",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Papiamento",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pashto",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Patois",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Persian (Farsi)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pidgin",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Plautdietsch",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pohnpeian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pokomchi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Polish",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Ponapean",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pohnpeian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Portuguese",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Portuguese Brazilian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Portuguese Creole (Cape Verdian Creole)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Potohari",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pugliese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Pulaar",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Punjabi",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Putien",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Q’eqchi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Quechua",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Quiche",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Quichua",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Rade",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Rakhine",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Rohingya",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Romanian",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Romany",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Rundi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Russian",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Salish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Samoan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sango",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Saraiki",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sarikoli",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Seraiki",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Serbian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Serbo-Croatian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Setswana",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sgaw",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Shanghainese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Shona",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sichuan Yi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sicilian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sidama",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sindhi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sinhala",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sinhalese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Slovak",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Slovene",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Slovenian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Soga",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Somali",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Soninke",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sorani",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Soso",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Spanish",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Sudanese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sunda",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Susu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Swahili",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Swati",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Swedish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Sylhetti",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Syriac",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Szechuan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tachew",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tagalog",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Taishan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Taiwanese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tajik",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tamashek",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tamazight",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tamil (Sri Lankan & Indian)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tatar",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Teluga",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Telugu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Temne",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tigrigna",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Thai",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Thai Dam",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tibetan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tigre",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tigrinya",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tohono",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "O’odham",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Toishan (Chinese)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tongan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tooro",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Trique",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Trukese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tshiluba",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Turkish",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Turkmen",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Twi",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Tzotzil",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Ukranian",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Urdu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Uyghur",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Uzbek",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Vietnamese",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Visayan",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Wenzhou (Chinese)",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Welsh",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Wodaabe",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Wolof/Ouoloff",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Wu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Xhosa",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Yemeni Arabic",
+            "opi": "Available",
+            "vri": "On-Demand available"
+        },
+        {
+            "language": "Yiddish",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Yoruba",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Yunnanese",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Zapoteco",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Zarma-Songhai",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Zo",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Zulu",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        },
+        {
+            "language": "Zyphe",
+            "opi": "Available",
+            "vri": "VRI Not Supported"
+        }
+
+
+    ]
+}

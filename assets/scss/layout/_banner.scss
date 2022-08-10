@@ -1,0 +1,119 @@
+.banner{
+  background: center / cover url(./../images/banner.jpg) no-repeat;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.hero-banner{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-title{
+  color: var(--white-one);
+  font-size: 2.8rem;
+  // opacity: 0;
+  text-align: center;
+  animation: moveBottom 1s 0.8s ease-in-out forwards;
+}
+
+.banner-subtitle{
+  color: var(--color-primary);
+  font-size: 1rem;
+  text-align: center;
+  animation: moveTop .8s ease-in-out;
+}
+
+.banner-img{
+  max-width: 236px;
+}
+
+.banner_alt{
+  height: 400px;
+}
+.hero-banner_alt{
+  padding-top: 76px;
+}
+
+// @keyframes moveTop {
+//   0%{
+//     opacity: 0;
+//     transform: translateY(-40px);
+//   }
+//   100%{
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+
+// @keyframes moveBottom {
+//   0%{
+//     opacity: 0;
+//     transform: translateY(440px);
+//   }
+//   100%{
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+.banner_multilingual{
+  background: center/cover url(./../images/multilingual.jpg) no-repeat;
+}
+.banner_americansign{
+  background: center/cover url(./../images/americansign.jpg) no-repeat;
+}
+.banner_telehealth{
+  background: center/cover url(./../images/telehealth.jpg) no-repeat;
+}
+.banner_video{
+  background: center/cover url(./../images/videoremote.jpg) no-repeat;
+}
+.banner_education{
+  background: center/cover url(./../images/education.jpg) no-repeat;
+}
+.banner_financial{
+  background: center/cover url(./../images/financial.jpg) no-repeat;
+}
+.banner_government{
+  background: center/cover url(./../images/government.jpg) no-repeat;
+}
+.banner_emergency{
+  background: center/cover url(./../images/emergency.jpg) no-repeat;
+}
+.banner_document{
+  background: center/cover url(./../images/document.jpg) no-repeat;
+}
+.banner_services{
+  background: center/cover url(./../images/services.jpg) no-repeat;
+}
+.banner_overthephone{
+  background: center/cover url(./../images/overthephone.jpg) no-repeat;
+}
+.banner_legalandjudicial{
+  background: center/cover url(./../images/legalandjudicial.jpg) no-repeat;
+}
+.banner_languageservice{
+  background: center/cover url(./../images/languageservice.jpg) no-repeat;
+}
+.banner_insurance{
+  background: center/cover url(./../images/insurance.jpg) no-repeat;
+}
+.banner_plataform{
+  background: center/cover url(./../images/plataform.jpg) no-repeat;
+}
+.banner_healthcare{
+  background: center/cover url(./../images/healthcare.jpg) no-repeat;
+}
+.banner_leadership{
+  background: center/cover url(./../images/leadership.jpg) no-repeat;
+}
+.banner_contact{
+  background: center/cover url(./../images/contact.jpg) no-repeat;
+}

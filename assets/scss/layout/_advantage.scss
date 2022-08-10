@@ -1,0 +1,26 @@
+.section-advantage{
+  background-color: var(--black-two);
+  padding: 6rem 0;
+}
+
+.title-advantage{
+
+  span{
+    position: relative;
+
+    &::before{
+      content: '';
+      background-color: var(--color-primary);
+      bottom: -2px;
+      height: 3px;
+      left: 0;
+      position: absolute;
+      transition: all 0.4s;
+      width: 0;
+    }
+  }
+
+  &:hover span::before{
+    width: 100%;
+  }
+}

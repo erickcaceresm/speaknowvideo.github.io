@@ -1,0 +1,69 @@
+@use '../utils/variables';
+
+// button{
+//   background-color: var(--red);
+// }
+
+
+.btn-contact-us{
+  align-items: center;
+  background: var(--color-primary);
+  // box-shadow: 0 0 8px 0px var(--white-two);
+  border-radius: 12px 0px 0px 12px;
+  display: flex;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  height: 46px;
+  overflow: hidden;
+  padding: 0.5rem;
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(68%);
+  width: 130px;
+  z-index: 1;
+
+  i{
+    font-size: 24px;
+  }
+
+  &:hover{
+    color: var(--black-one);
+    transform: translateX(0);
+  }
+}
+
+.btn-k{
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 16px 24px;
+  transition: all .3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.btn-k_outline{
+  border: solid 2px var(--black-three);
+
+  &:hover{
+    background-color: var(--black-three);
+    color: var(--white-one);
+  }
+}
+
+.btn-k_outline-primary{
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+
+  &:hover{
+    background: var(--color-primary);
+    color: var(--black-one);
+  }
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}

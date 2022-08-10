@@ -1,0 +1,40 @@
+
+.header{
+  background-color: var(--black-three);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.img-logo{
+  max-width: 132px;
+}
+
+.navbar-k .navbar-nav .nav-link-k{
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  text-transform: uppercase;
+
+  &:hover::before{
+    content: '';
+    background-color: var(--color-primary);
+    bottom: -17px;
+    height: 3px;
+    position: absolute;
+    width: calc(100% - 32px);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.navbar-k .navbar-nav .nav-item:last-child .nav-link-k{
+  color: var(--color-primary);
+}
+
+.navbar-toggler i{
+  font-size: 1.75rem;
+}

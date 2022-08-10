@@ -1,0 +1,23 @@
+.box-img_certified{
+  // border: solid 1px;
+  // height: 250px;
+  max-width: 250px;
+
+  img{
+    margin: auto;
+    width: 70%;
+  }
+}
+
+
+.box-certified_footer{
+  align-items: center;
+  justify-content: center;
+  // flex-direction: column;
+}
+.box-img_certified-alt{
+  // width: 100px;
+  img{
+    width: 100%;
+  }
+}
