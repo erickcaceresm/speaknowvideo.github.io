@@ -12,7 +12,11 @@
     height: 100vh;
   }
   .navbar-k .navbar-nav .nav-link-k{
+    font-size: 0.875rem;
     padding: 1rem;
+  }
+  .dropdown-menu-k .dropdown-item{
+    font-size: 0.875rem;
   }
   .navbar-toggler:focus{
     box-shadow: none;
@@ -22,7 +26,7 @@
     padding-top: 1.5rem;
   }
   .banner-title{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .text-outstanding{
     padding: 0 1rem;
@@ -138,7 +142,7 @@
 
 @media screen and(max-width: 1024px) {
   .container-k{
-    max-width: 1024px;    
+    max-width: 1024px;
   }
   .navbar-k .navbar-nav .nav-link-k:hover::before{
     display: none;
