@@ -561,6 +561,7 @@ button:focus:not(:focus-visible) {
 
 .navbar-k .navbar-nav .nav-link-k {
   color: #fff;
+  font-size: 15px;
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
