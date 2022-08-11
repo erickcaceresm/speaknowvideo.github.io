@@ -102,9 +102,9 @@ svg {
   content: "";
   background-color: var(--color-primary);
   position: absolute;
-  bottom: -1rem;
+  bottom: -0.75rem;
   height: 2px;
-  width: 12%;
+  width: 2.5rem;
 }
 
 .subtitle-primary {
@@ -307,6 +307,10 @@ button:focus:not(:focus-visible) {
   right: 0;
   top: 0;
   transition: all 0.35s ease;
+}
+
+.card-k_push p {
+  height: 130px;
 }
 
 .card-k_push-up figcaption {
@@ -629,6 +633,10 @@ button:focus:not(:focus-visible) {
 
 .hero-banner_alt {
   padding-top: 76px;
+}
+
+.banner_on-site {
+  background: center/cover url(./../images/on-site.jpg) no-repeat;
 }
 
 .banner_multilingual {

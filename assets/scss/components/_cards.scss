@@ -85,6 +85,11 @@
   transition: all .35s ease;
 }
 
+.card-k_push p{
+  height: 130px;
+  // background-color: red;
+}
+
 .card-k_push-up figcaption {
   transform: translateY(100%);
 }
