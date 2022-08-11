@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
         //Content
         $mail->isHTML(true); //Set email format to HTML
         $mail->Subject = 'Contact from form Speaknowvideo.com';
-        $mail->Body = "Nombre: $name<br>Email: $email<br>Service: $services<br>Mensaje: " . $_POST['mensaje'];
+        $mail->Body = "<b>Name</b>: $name<br><b>Email</b>: $email<br><b>Phone</b>: $phone<b>Service</b>: $services";
         // $mail->AltBody = '';
 
         $mail->send();
