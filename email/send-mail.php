@@ -20,18 +20,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_OFF; //Enable verbose debug output
         $mail->isSMTP(); //Send using SMTP
-        $mail->Host = 'mail.speaknowvideo.com'; //Set the SMTP server to send through
-        $mail->SMTPAuth = true; //Enable SMTP authentication
-        // Todo: Change to your email and password
-        $mail->Username = ''; //SMTP email
-        $mail->Password = ''; //SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; //Enable implicit TLS encryption
-        $mail->Port = 465; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        // $mail->Host = 'mail.speaknowvideo.com'; //Set the SMTP server to send through
+        // $mail->Host = 'relay-hosting.secureserver.net';
+        // $mail->SMTPAuth = true; //Enable SMTP authentication
+        // // Todo: Change to your email and password
+        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; //Enable implicit TLS encryption
+        // $mail->Port = 465; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        // ====
+        $mail->Host="localhost";
+        $mail->SMTPAuth = false;
+        $mail->SMTPAutoTLS = false; 
+        $mail->Port = 25;
+        // ====
+        $mail->Username = 'sales@speaknowvideo.com'; //SMTP email
+        $mail->Password = 'sales2022'; //SMTP password
 
         //Recipients
         // Todo: Change to your email
-        $mail->setFrom('', 'Contact from form Speaknowvideo.com'); //SMTP email
-        $mail->addAddress('', 'Contact from form Speaknowvideo.com'); //Add a recipient
+        $mail->setFrom('sales@speaknowvideo.com', 'Contact from form Speaknowvideo.com'); //SMTP email
+        $mail->addAddress('sales@speaknowvideo.com', 'Contact from form Speaknowvideo.com'); //Add a recipient
         // $mail->addAddress('ellen@example.com');               //Name is optional
         // $mail->addReplyTo('info@example.com', 'Information');
         // $mail->addCC('cc@example.com');
@@ -44,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
         //Content
         $mail->isHTML(true); //Set email format to HTML
         $mail->Subject = 'Contact from form Speaknowvideo.com';
-        $mail->Body = "<b>Name</b>: $name<br><b>Email</b>: $email<br><b>Phone</b>: $phone<b>Service</b>: $services";
+        $mail->Body = "<b>Name</b>: $name<br><b>Email</b>: $email<br><b>Phone</b>: $phone<br><b>Service</b>: $services";
         // $mail->AltBody = '';
 
         $mail->send();
@@ -52,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
         header('Location: ../index.html?status=ok');
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-        header('Location: ../index.html?status=error');
+        // header('Location: ../index.html?status=error');
 
     }
 }
