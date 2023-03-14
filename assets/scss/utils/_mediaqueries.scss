@@ -1,143 +1,191 @@
 @media screen and(max-width:360px){
-  .flex-values div{
-    font-size: 8px;
-  }
+
 }
 @media screen and(max-width: 600px) {
-
-  :root{
-    --widgetSize: 340px;
+  .navbar-collapse{
+    overflow-y: auto;
   }
-  .navbar-collapse-k{
-    height: 100vh;
-  }
-  .navbar-k .navbar-nav .nav-link-k{
-    font-size: 0.875rem;
-    padding: 1rem;
-  }
-  .dropdown-menu-k .dropdown-item{
-    font-size: 0.875rem;
-  }
-  .navbar-toggler:focus{
-    box-shadow: none;
-  }
-  .navbar-nav-k{
+  .navbar-nav-k {
     height: 100vh;
     padding-top: 1.5rem;
   }
+  .navbar-k .navbar-nav .nav-link-k {
+    font-size: 0.875rem;
+    padding: 1rem;
+  }
+  .header{
+    background-color: var(--black-two);
+  }
+  .banner{
+    height: 100vh;
+  }
+  .banner-commun{
+    background-position-x: 62%;
+    height: 340px;
+    margin-top: 72px;
+  }
+  .banner-subtitle{
+    font-size: 1rem;
+    text-align: center;
+  }
   .banner-title{
     font-size: 1.5rem;
+    text-align: center;
   }
-  .text-outstanding{
-    padding: 0 1rem;
-    font-size: 1.25rem;
+  .btn-banner{
+    margin: 0 auto 1rem;
+  }
+  .section-commun{
+    padding: 4rem 0;
+  }
+  .pad-right-5{
+    margin-bottom: 1rem;
+    padding: 0;
   }
   .title-primary{
     font-size: 1.5rem;
   }
-  .subtitle-primary{
-    font-size: 1.25rem;
+  .box-bg-6{
+    padding: 2rem 1rem;
   }
-  .text-one{
-    font-size: 1rem;
+  .flex-diagonal{
+    flex-direction: column-reverse;
   }
-
-  .section-advantage, .section-world-class, .section-values, .section-solution, .section-services, .section-industries, .section-language-services, .section-form{
-    padding: 4rem 0;
+  .flex-diagonal_direction{
+    flex-direction: column;
   }
+  .flex-diagonal_text{
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+  .flex-diagonal_picture{
+    width: 100%;
 
-  .list-world-class{
-    padding: 0 1rem;
-
-    li{
-      height: auto;
+    img{
+      clip-path: initial;
     }
   }
 
-  .section-speak-now{
-    background-position: left;
-    height: auto;
+  .info-circle .outer-circle {
+    width: 320px;
+    height: 320px;
+  }
+  .info-circle .inner-circle {
+    width: 300px;
+    height: 300px;
+  }
+  .info-circle .info-blocks {
+    top: 48px;
+    width: calc(100% - 69px);
+  }
+  .info-circle .info-blocks > div:nth-of-type(odd) {
+    transform: translate(0, 0);
+  }
+  .info-circle .info-blocks > div:nth-of-type(n) {
+    position: static;
+    width: 100%;
+    margin-bottom: 65px;
+  }
+  .info-circle .info-blocks > div:nth-of-type(2n+1) .info-icon {
+    float: left;
+    margin-left: 0px;
+    margin-right: 0.9rem;
+  }
+  .info-circle .info-text {
+    float: left;
+    width: calc(100% - 108px);
+    margin-top: 4px;
+    margin-right: 0rem;
+  }
+  .info-circle .info-text .title {
+    font-size: 1.5rem;
+    margin: 24px 1rem 0;
+    text-align: left;
+  }
+  .info-circle .info-blocks > div:nth-of-type(even){
+    transform: translate(0);
+  }
+  .info-circle .info-text.title-only{
     margin-top: 0;
   }
-  
-  .flex-values div{
-    font-size: 10px;
+
+  .flex-card-k-premium{
+    gap: 1rem;
+    margin-top: 3rem;
   }
 
-  .card-k_push{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  .flex-card-industries{
     justify-content: space-evenly;
+    padding-bottom: 0;
   }
-  .card-k_content{
-    height: auto;
+  .card-industries{
+    position: initial;
   }
-  .card-k_push figcaption{
+  .carousel-testimonials_text{
+    height: 120px;
+  }
+
+  table.dataTable.no-footer{
+    width: 100% !important;
+  }
+  table.dataTable tbody td{
+    vertical-align: middle;
+  }
+
+  .card-document{
+    margin-bottom: 2.5rem;
+  }
+  .section-healthcare-experiencies .card-k_grid{
+    padding: 0;
+  }
+  .section-healthcare-experiencies{
+    background-position: 44% 40%;
+  }
+  .card-k_grid-alternative{
+    row-gap: 2rem;
+    margin-top: 3rem;
+  }
+  .section-insurance{
+    padding-top: 3rem;
+  }
+  .insurance-img_desktop{
     display: none;
   }
-  .card-k_push-left:hover .card-k_content, .card-k_push-up:hover .card-k_content{
-    transform: translateX(0);
+  .insurance-img_movil{
+    display: block;
   }
-  .card-k_alt.card-k_big:hover{
-    border-color: inherit;
-    color: initial;
+  .figure-education{
+    height: 100%;
   }
-  .card-k_big:hover{
-    border-color: var(--white-one);
-    color: var(--white-one);
-  }
-
-  .borde-values{
-    height: calc(var(--widgetSize) - 100px);
-    width: calc(var(--widgetSize) - 100px);
-  }
-
   .form-box{
     padding: 2rem;
+  }
+  .card-career{
+    margin-bottom: 1.5rem;
+  }
+  // .box-video-movil{
+  //   height: auto;
+  // }
+  .table-k_box{
     width: 100%;
   }
-  .footer{
-    padding: 2rem 0 0;
+  .btn-contact-us{
+    top: 36%;
   }
-  .footer-ul, .footer-title{
-    margin-left: 2rem;
+  .carousel-control-prev{
+    left: 0;
   }
-  .footer-title{
-    font-size: 1.25rem;
+  .carousel-control-next{
+    right: 0;
   }
-  .section-copyght p{
-    font-size: 12px;
-  }
-  .box-img_certified{
-    max-width: 33%;
-  }
-  .box-img_certified-alt img{
-    width: 60%;
-  }
-  .box-certified_footer{
-    margin-bottom: 2rem;
-  }
-  .section-boxText{
-    padding: 3rem 0;
-  }
-  .box-solution{
-    margin-bottom: 0;
-    padding: 1rem 0;
-  }
-  .banner_emergency{
-    background-position-x: 53%;
-  }
-  .banner_telehealth{
-    background-position: 28%;
-  }
-  .banner_americansign{
-    background-position: 82%;
+  .navbar-k .navbar-nav .nav-link-k.active::before{
+    display: none;
   }
 }
 
 
 @media screen and(min-width: 768px) {
+  
 }
 
 @media screen and(max-width: 1024px) {

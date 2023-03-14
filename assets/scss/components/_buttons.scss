@@ -8,25 +8,30 @@
 .btn-contact-us{
   align-items: center;
   background: var(--color-primary);
-  // box-shadow: 0 0 8px 0px var(--white-two);
   border-radius: 12px 0px 0px 12px;
+  box-shadow: 0 0 16px 0px #69290c;
   display: flex;
   gap: 12px;
   font-weight: 600;
   font-size: 14px;
   height: 46px;
   overflow: hidden;
-  padding: 0.5rem;
+  padding: 1.75rem .75rem;
   position: fixed;
   right: 0px;
-  top: 50%;
+  top: 40%;
   transition: all 0.3s ease-in-out;
   transform: translateX(68%);
-  width: 130px;
+  width: 145px;
   z-index: 1;
 
   i{
+    color: var(--white-one);
     font-size: 24px;
+  }
+  span{
+    color: var(--white-one);
+    font-size: 1rem;
   }
 
   &:hover{
@@ -34,11 +39,37 @@
     transform: translateX(0);
   }
 }
+.btn-demo{
+  align-items: center;
+  background: var(--color-primary);
+  border-radius: 8px 0 0 8px;
+  box-shadow: 0 0 16px 0px #69290c;
+  color: var(--white-one);
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  height: 80px;
+  position: fixed;
+  right: 0;
+  top: 48%;
+  width: 45px;
+
+  span{
+    writing-mode: vertical-rl;
+  }
+
+  &:hover span{
+    color: var(--white-one);
+    opacity: 0.8;
+  }
+}
 
 .btn-k{
   border-radius: 4px;
   font-weight: 600;
   font-size: 1rem;
+  max-width: fit-content;
   padding: 16px 24px;
   transition: all .3s ease-in-out;
   text-transform: uppercase;
@@ -48,7 +79,7 @@
   border: solid 2px var(--black-three);
 
   &:hover{
-    background-color: var(--black-three);
+    background-color: var(--color-primary);
     color: var(--white-one);
   }
 }
@@ -59,6 +90,18 @@
 
   &:hover{
     background: var(--color-primary);
+    color: var(--white-one);
+  }
+}
+
+.btn-k_outline-white{
+  border-color: var(--white-one);
+  color: var(--white-one);
+  margin: auto;
+  margin-right: 0;
+
+  &:hover{
+    background: var(--white-one);
     color: var(--black-one);
   }
 }
@@ -66,4 +109,8 @@
 button:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
+}
+
+.btn-banner{
+  background-color: #000;
 }

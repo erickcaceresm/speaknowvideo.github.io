@@ -1,6 +1,38 @@
-.section-industries{
-  // background-color: rgb(241, 241, 241);
+.section-industries-box{
+  background: url('./../images/industries-bg-box.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border-color: var(--white-one);
   border-color: var(--gray-six);
   padding: 6rem 0;
+}
+
+.section-healthcare-experiencies{
+  background: linear-gradient(rgb(0 0 0 / 70%), rgb(0 0 0 / 70%)), url(./../images/healthcare-box2.jpg) no-repeat;
+  // background-position: center;
+  background-position: center 12%;
+  
+  .card-k_grid{
+    justify-content: space-evenly;
+    padding: 6rem 0;
+  }
+}
+
+.section-insurance{
+  padding-top: 6rem;
+}
+.insurance-figure{
+  margin: 0;
+
+  img{
+    margin: auto;
+    width: 70%;
+  }
+}
+.insurance-img_desktop{
+  display: block;
+}
+.insurance-img_movil{
+  display: none;
 }

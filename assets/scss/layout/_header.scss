@@ -1,6 +1,6 @@
 
 .header{
-  background-color: var(--black-three);
+  background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   top: 0;
   width: 100%;
@@ -17,7 +17,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
-  text-transform: uppercase;
+  text-transform: capitalize;
 
   &:hover::before{
     content: '';
@@ -32,10 +32,29 @@
   }
 }
 
-.navbar-k .navbar-nav .nav-item:last-child .nav-link-k{
-  color: var(--color-primary);
-}
-
 .navbar-toggler i{
   font-size: 1.75rem;
 }
+
+
+.navbar-k .navbar-nav .nav-link-k.active{
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.navbar-k .navbar-nav .nav-link-k.active::before{
+  content: '';
+    background-color: var(--color-primary);
+    bottom: -17px;
+    height: 3px;
+    position: absolute;
+    width: calc(100% - 32px);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.scroll{
+  background-color: var(--black-two);
+  box-shadow: 0 0 12px 0 black;
+}
+

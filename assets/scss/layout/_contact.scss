@@ -1,3 +1,25 @@
-.section-contact{
-  padding: 7rem 0;
+
+.flex-contact{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  i{
+    color: var(--color-primary);
+    font-size: 2rem;
+  }
+  p{
+    color: var(--white-one);
+    line-height: 32px;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+}
+
+.card-k_grid-contact{
+
+  .card-k{
+    padding: 1rem;
+  }
 }

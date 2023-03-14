@@ -1,0 +1,21 @@
+.accordion-k{
+  margin-top: 4rem;
+  color: var(--white-one);
+
+  .accordion-button{
+    background-color: var(--black-three);
+    // color: var(--color-primary);
+    color: var(--white-one);
+  }
+  .accordion-item{
+    background-color: #252533;
+    color: var(--gray-three);
+  }
+  .accordion-button::after{
+    filter: invert(1);
+  }
+  .accordion-button:not(.collapsed){
+    color: var(--color-primary);
+  }
+
+}

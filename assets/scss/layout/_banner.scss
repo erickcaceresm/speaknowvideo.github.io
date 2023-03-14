@@ -1,39 +1,53 @@
 .banner{
   background: center / cover url(./../images/banner.jpg) no-repeat;
-  height: 100vh;
+  height: 800px;
   position: relative;
   width: 100%;
 }
 
 .hero-banner{
-  position: absolute;
+  // position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 24px;
+  // flex-direction: column;
+  // gap: 24px;
   height: 100%;
   width: 100%;
 }
 
+.flex-commun{
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+.pad-right-5{
+  padding-right: 5rem;
+}
+
 .banner-title{
   color: var(--white-one);
-  font-size: 2.8rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
   // opacity: 0;
-  text-align: center;
+  // text-align: center;
   animation: moveBottom 1s 0.8s ease-in-out forwards;
 }
 
 .banner-subtitle{
+  background-color: #000;
   color: var(--color-primary);
-  font-size: 1rem;
-  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  // text-align: center;
   animation: moveTop .8s ease-in-out;
 }
 
-.banner-img{
-  max-width: 236px;
-}
+// .banner-img{
+//   max-width: 236px;
+// }
 
 .banner_alt{
   height: 400px;
@@ -63,60 +77,102 @@
 //     transform: translateY(0);
 //   }
 // }
+
+.banner-commun{
+  height: 520px;
+  width: 100%;
+}
+.banner-commun_text{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  text-shadow: 0 0 2rem #1b1b1b;
+  width: 100%;
+}
 .banner_on-site{
-  background: center/cover url(./../images/on-site.jpg) no-repeat;
+  background: center/cover url(./../images/on-site-banner.jpg) no-repeat;
 }
 .banner_multilingual{
-  background: center/cover url(./../images/multilingual.jpg) no-repeat;
+  background: center/cover url(./../images/multilingual-banner.jpg) no-repeat;
 }
 .banner_americansign{
-  background: center/cover url(./../images/americansign.jpg) no-repeat;
+  background: center/cover url(./../images/americansign-banner.jpg) no-repeat;
 }
 .banner_telehealth{
-  background: center/cover url(./../images/telehealth.jpg) no-repeat;
+  background: center/cover url(./../images/telehealth-banner.jpg) no-repeat;
 }
 .banner_video{
-  background: center/cover url(./../images/videoremote.jpg) no-repeat;
+  background: center/cover url(./../images/videoremoto-banner.jpg) no-repeat;
 }
 .banner_education{
-  background: center/cover url(./../images/education.jpg) no-repeat;
+  background: center/cover url(./../images/education-banner.jpg) no-repeat;
 }
 .banner_financial{
-  background: center/cover url(./../images/financial.jpg) no-repeat;
+  background: center/cover url(./../images/financial-banner.jpg) no-repeat;
 }
 .banner_government{
-  background: center/cover url(./../images/government.jpg) no-repeat;
+  background: center/cover url(./../images/government-banner.jpg) no-repeat;
 }
 .banner_emergency{
-  background: center/cover url(./../images/emergency.jpg) no-repeat;
+  background: center/cover url(./../images/emergency-banner.jpg) no-repeat;
 }
-.banner_document{
-  background: center/cover url(./../images/document.jpg) no-repeat;
+.banner_document-translation{
+  background: center/cover url(./../images/document-translation-banner.jpg) no-repeat;
 }
 .banner_services{
-  background: center/cover url(./../images/services.jpg) no-repeat;
+  background: center/cover url(./../images/services-banner.jpg) no-repeat;
 }
 .banner_overthephone{
-  background: center/cover url(./../images/overthephone.jpg) no-repeat;
+  background: center/cover url(./../images/overphone-banner.jpg) no-repeat;
 }
 .banner_legalandjudicial{
-  background: center/cover url(./../images/legalandjudicial.jpg) no-repeat;
+  background: center/cover url(./../images/legal-banner.jpg) no-repeat;
 }
 .banner_languageservice{
   background: center/cover url(./../images/languageservice.jpg) no-repeat;
 }
 .banner_insurance{
-  background: center/cover url(./../images/insurance.jpg) no-repeat;
+  background: center/cover url(./../images/insurance-banner.jpg) no-repeat;
 }
-.banner_plataform{
-  background: center/cover url(./../images/plataform.jpg) no-repeat;
+.banner_industries{
+  background: center/cover url(./../images/industries-banner.jpg) no-repeat;
 }
 .banner_healthcare{
-  background: center/cover url(./../images/healthcare.jpg) no-repeat;
+  background: center/cover url(./../images/healthcare-banner.jpg) no-repeat;
 }
-.banner_leadership{
-  background: center/cover url(./../images/leadership.jpg) no-repeat;
+.banner_about-us{
+  background: center/cover url(./../images/about-us-banner.jpg) no-repeat;
 }
 .banner_contact{
-  background: center/cover url(./../images/contact.jpg) no-repeat;
+  background: center/cover url(./../images/contact-banner.jpg) no-repeat;
+}
+.banner_blog{
+  background: left/cover url(./../images/blog-banner.jpg) no-repeat;
+}
+.banner_careers{
+  background: left/cover url(./../images/careers-banner.jpg) no-repeat;
+}
+.banner_code-ethics{
+  background: left/cover url(./../images/code-banner.jpg) no-repeat;
+}
+.banner_hippa{
+  background: left/cover url(./../images/hippa-banner.jpg) no-repeat;
+}
+.banner_premium-platform{
+  background: left/cover url(./../images/premium-platform.banner.jpg) no-repeat;
+}
+.banner_faq{
+  background: left/cover url(./../images/faq-banner.jpg) no-repeat;
+}
+.banner_demo{
+  background: left/cover url(./../images/demo-banner.jpg) no-repeat;
+}
+.banner_jobs{
+  background: left/cover url(./../images/jobs-banner.jpg) no-repeat;
+}
+.banner_privacy{
+  background: left/cover url(./../images/privacy-banner.jpg) no-repeat;
 }

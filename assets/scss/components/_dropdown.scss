@@ -7,15 +7,24 @@
   // }
 
   .dropdown-item{
+    color: var(--gray-three);
     padding: 0.75rem 1rem;
+    text-transform: capitalize;
 
     &:hover{
-      background-color: var(--black-three);
+      background-color: var(--black-two);
       color: var(--white-one);
     }
 
     &.active, &:active{
-      background-color: #e9ecef;
+      background-color: var(--black-three);
     }
   }
+}
+
+.dropdown-menu{
+  background-color: var(--black-two);
+}
+.dropdown-item.active{
+  color: var(--color-primary);
 }

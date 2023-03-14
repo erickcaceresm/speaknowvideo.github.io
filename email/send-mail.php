@@ -11,10 +11,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
 
     $mail = new PHPMailer(true);
 
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $email = $_POST['email'];
     $services = $_POST['services'];
+    $company = $_POST['company'];
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $country = $_POST['country'];
+
+    // $name = $_POST['name'];
+    // $phone = $_POST['phone'];
+    // $email = $_POST['email'];
 
     try {
         //Server settings
@@ -29,8 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
         // ====
         $mail->Host="localhost";
         $mail->SMTPAuth = false;
-        $mail->SMTPAutoTLS = false; 
-        $mail->Port = 25;
+        $mail->SMTPAutoTLS = false;
+        // $mail->Port = 25;
+        $mail->Port = 465;
         // ====
         $mail->Username = 'sales@speaknowvideo.com'; //SMTP email
         $mail->Password = 'sales2022'; //SMTP password
@@ -51,12 +59,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['email']) {
         //Content
         $mail->isHTML(true); //Set email format to HTML
         $mail->Subject = 'Contact from form Speaknowvideo.com';
-        $mail->Body = "<b>Name</b>: $name<br><b>Email</b>: $email<br><b>Phone</b>: $phone<br><b>Service</b>: $services";
+        $mail->Body = "<b>Name</b>: $firstname<br><b>Email</b>: $email<br><b>Phone</b>: $phone<br><b>Service</b>: $services";
         // $mail->AltBody = '';
 
         $mail->send();
         echo 'Message has been sent';
-        header('Location: ../index.html?status=ok');
+        header('Location: ../index.php?status=ok');
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         // header('Location: ../index.html?status=error');

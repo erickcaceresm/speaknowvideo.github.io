@@ -1,12 +1,41 @@
 .footer{
- background-color: var(--black-three);
+ background-color: var(--black-two);
  color: var(--white-one);
  padding: 4rem 0;
 }
 
 .footer-logo{
-  margin: 0 auto 2rem;
+  margin-bottom: 12px;
   width: 50%;
+}
+
+.footer-company{
+
+  p{
+    font-size: 12px;
+  }
+}
+.footer-data{
+
+  max-width: 240px;
+  padding: 0;
+  width: 100%;
+
+  li{
+    // vertical-align: middle;
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 1rem;
+  }
+
+  i{
+    color: var(--color-primary);
+    font-size: 20px;
+  }
+  span, p{
+    font-size: 0.875rem;
+  }
 }
 
 .footer-title{
@@ -15,6 +44,11 @@
   margin-left: 2rem;
 }
 
+.footer-redes{
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
 .box-redes{
   align-items: center;
   display: flex;
@@ -23,13 +57,13 @@
 
   a{
     align-items: center;
-    border: solid 1px #fff;
+    // border: solid 1px #fff;
     border-radius: 50%;
     color: #fff;
     display: flex;
-    height: 44px;
+    height: 2rem;
     justify-content: center;
-    width: 44px;
+    width: 2rem;
     transition: all 0.3s ease-in-out;
 
     &:hover{
@@ -46,9 +80,18 @@
 
   li{
     margin-bottom: 0.75rem;
+    position: relative;
+    left: 12px;
 
-    &:nth-child(4){
-      display: none;
+    &::before{
+      content: '';
+      background-color: var(--color-primary);
+      border-radius: 8px;
+      height: 5px;
+      width: 5px;
+      position: absolute;
+      top: 11px;
+      left: -12px;
     }
   }
 
@@ -74,4 +117,23 @@
   a:hover::before{
     width: 100%;
   }
+}
+
+// copyright
+.section-copyght{
+  background-color: var(--black-three);
+  color: var(--white-one);
+  padding: 1rem 0;
+
+  p{
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+  }
+}
+.copyright{
+  align-items: center;
+  color: var(--gray-one);
+  display: flex;
+  justify-content: space-between;
 }

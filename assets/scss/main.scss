@@ -7,14 +7,15 @@
 @forward 'components/table';
 @forward 'components/dropdown';
 @forward 'components/modal';
-@forward 'components/certified';
+// @forward 'components/certified';
 @forward 'components/maps';
+@forward 'components/accordion';
 
 @forward 'layout/header';
 @forward 'layout/banner';
 @forward 'layout/outstading';
-@forward 'layout/advantage';
-@forward 'layout/world-class';
+// @forward 'layout/advantage';
+// @forward 'layout/world-class';
 @forward 'layout/values';
 @forward 'layout/two-column';
 @forward 'layout/benefits';
@@ -22,6 +23,7 @@
 @forward 'layout/solution';
 @forward 'layout/industries';
 @forward 'layout/speak-now';
+@forward 'layout/testimonial';
 @forward 'layout/language-services';
 @forward 'layout/boxText';
 @forward 'layout/contact';

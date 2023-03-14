@@ -2,3 +2,92 @@
   background-color: var(--black-two);
   padding: 7rem 0;
 }
+
+.responsivelist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ImgBaseTip{
+  background-image: url(../images/info.png) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  display: block;
+  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  margin: auto;
+  position: relative !important;
+  width: 300px;
+}
+.DivBase {
+  background: white;
+  width: 100%;
+  height: 100%;
+  display: block;
+  max-width: 256px;
+  max-height: 256px;
+  margin: auto;
+  top: 22px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 1px 1px 6px 4px #504e4e;
+}
+.glows {
+  transition: 0.5s;
+  background: #fff;
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
+  animation: animateglow 8s linear infinite;
+  transition: all 0.5s;
+  animate: 0.5s;
+  background: linear-gradient(90deg, #fd7615, #f1cb0c, #fd5515, #ec7d06);
+  background-size: 400%;
+  border-radius: 40px;
+}
+.glows:before {
+  animate: 0.5s; transition: 0.5s;
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(90deg, #fd7615, #f1cb0c, #fd5515, #ec7d06);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+@keyframes animateglow{
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+.faicon {
+  color: #fff;
+  font-size: 4rem;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.textfa {
+  padding: 12px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
