@@ -21,13 +21,6 @@
         </div>
         <div class="card-k">
           <div class="card-k_icon">
-          <i class="bi bi-telephone"></i>
-          </div>
-          <h5 class="card-k_text mb-4">Sales</h5>
-          <p>+1 (212) 257-2655</p>
-        </div>
-        <div class="card-k">
-          <div class="card-k_icon">
           <i class="bi bi-envelope"></i>
           </div>
           <h5 class="card-k_text mb-4">Email</h5>
@@ -106,16 +99,7 @@
       <hr class="border-line mx-auto mb-4">
     <div class="mt-5">
       <div class="row">
-        <div class="col-md-6">
-          <div class="mb-5 mb-md-0">
-            <div class="flex-contact">
-            <i class="bi bi-geo-alt"></i>
-              <p>260 Madison Ave, New York, NY 10016, EE. UU.</p>
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.5154190772964!2d-73.98331128434364!3d40.75068714318441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25900db695bb9%3A0x11b0629f054872a0!2s260%20Madison%20Ave%2C%20New%20York%2C%20NY%2010016%2C%20EE.%20UU.!5e0!3m2!1ses-419!2spe!4v1660244207454!5m2!1ses-419!2spe" width="100%" height="450"></iframe>
-          </div>
-        </div>
-        <div class="col-md-6">
+        <div class="col-12">
         <div class="flex-contact">
         <i class="bi bi-geo-alt"></i>
             <p>601 W Broadway, Vancouver, BC V5Z 4C2, Canadá</p>

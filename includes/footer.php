@@ -10,17 +10,12 @@
           <ul class="footer-data">
             <li>
               <i class="bi bi-geo-alt"></i>
-              <span>260 Madison Ave, New York, NY 10016, EE.UU.</span>
-            </li>
-            <li>
-              <i class="bi bi-geo-alt"></i>
               <span>601 W Broadway, Vancouver, BC V5Z 4C2, Canadá</span>
             </li>
             <li>
               <i class="bi bi-telephone"></i>
               <div>
                 <p class="m-0">Office: +1 (888) 861-8484</p>
-                <p class="m-0">Sales: +1 (212) 257-2655</p>
               </div>
             </li>
             <li>

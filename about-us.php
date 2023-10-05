@@ -151,36 +151,6 @@
             </div>
           </div>
         </div>
-        <div class="card-team">
-          <figure class="card-team_figure">
-            <img src="./assets/images/team/dania-hernandez.jpg" alt="Dania Hernandez">
-          </figure>
-          <div class="card-team_body">
-            <h3 class="card-team_name">Dania Hernandez</h3>
-            <p class="card-team_profile">Marketing Manager</p>
-            <p class="card-team_profile">Speak Now Video, Language Services</p>
-            <div class="card-team_social">
-              <a href="https://www.linkedin.com/in/dania-hernandez-30960a42/" class="card-team_link">
-                <i class="bi bi-linkedin"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="card-team">
-          <figure class="card-team_figure">
-            <img src="./assets/images/team/kauri-pimentel.jpg" alt="Victoria Molleja">
-          </figure>
-          <div class="card-team_body">
-            <h3 class="card-team_name">Kauri Pimentel</h3>
-            <p class="card-team_profile">Marketing and Sales Executive</p>
-            <p class="card-team_profile">Speak Now Video, Language Services</p>
-            <div class="card-team_social">
-              <a href="https://www.linkedin.com/in/kaury-daniela-pimentel-353762248/" class="card-team_link">
-                <i class="bi bi-linkedin"></i>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
   </div>
 </section>

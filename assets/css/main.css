@@ -212,7 +212,10 @@ svg {
 }
 
 .section-platform {
-  background: center/cover url("./../images/platform-background.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./../images/platform-background.jpg);
+  background-color: #000;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .pictue-videoremote {
@@ -1080,7 +1083,9 @@ table.dataTable.display > tbody > tr.odd > .sorting_1, table.dataTable.order-col
 }
 
 .banner {
-  background: center/cover url(./../images/banner.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../images/banner.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 800px;
   position: relative;
   width: 100%;
@@ -1113,7 +1118,6 @@ table.dataTable.display > tbody > tr.odd > .sorting_1, table.dataTable.order-col
 }
 
 .banner-subtitle {
-  background-color: #000;
   color: var(--color-primary);
   font-size: 1.5rem;
   font-weight: 600;

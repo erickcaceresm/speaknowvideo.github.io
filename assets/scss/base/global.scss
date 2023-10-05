@@ -131,7 +131,11 @@
 }
 
 .section-platform{
-  background: center/cover url('./../images/platform-background.jpg') no-repeat;
+  // background: center/cover url('./../images/platform-background.jpg') no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./../images/platform-background.jpg);
+  background-color: #000;
+  background-position: bottom;
+  background-size: cover;
 }
 
 .pictue-videoremote{
